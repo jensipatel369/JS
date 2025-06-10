@@ -23,5 +23,3 @@ alert(2025-year);
 
 // Implicit type conversion
 // Explicit type conversion
-
-
