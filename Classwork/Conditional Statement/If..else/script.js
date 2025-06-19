@@ -1,6 +1,7 @@
-// // Conditional if...else Statements
+// Conditional if...else Statements
 
-// // Question 1 :
+// Question 1 :
+
 // let age = Number(prompt("Enter your age : "));
 
 // if(age>=18){
@@ -10,8 +11,12 @@
 // }
 
 
-// // Question 2 :
-// // Swap Program
+//-----------------------------------------------------------------
+
+
+// Question 2 :
+// Swap Program
+
 // let a = 10;
 // let b = 20;
 // let c;
@@ -24,8 +29,12 @@
 // console.log(b);
 
 
-// // Question 3 :
-// // Find even or odd number
+//-----------------------------------------------------------------
+
+
+// Question 3 :
+// Find even or odd number
+
 // let num = Number(prompt("Enter your mark :"))
 
 // if(num%2==0){
@@ -35,8 +44,12 @@
 // }
 
 
-// // Question 4 :
-// // confirm function
+//-----------------------------------------------------------------
+
+
+// Question 4 :
+// confirm function
+
 // let choice = confirm("Are your want play this game..?")
 
 // if(choice){
@@ -46,11 +59,34 @@
 // }
 
 
-// Question 5 :
-let a = 23;
+//----------------------------------------------------------------
 
-if(a){
-    console.log("truthy");
-}else{
-    console.log("falsy");
+
+// Question 5 :
+
+// let a = 23;
+
+// if(a){
+//     console.log("truthy");
+// }else{
+//     console.log("falsy");
+// }
+
+
+//----------------------------------------------------------------
+
+
+// Question 6 :
+// Find a value and Data type difference (== & ===)
+
+let a = "22";
+let b = 22;
+
+if(a==b){
+    console.log("Hello");
 }
+if(a===b){
+    console.log("Bye");
+}
+
+//----------------------------------------------------------------

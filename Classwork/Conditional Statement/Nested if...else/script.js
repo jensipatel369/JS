@@ -1,7 +1,7 @@
-// // Nested if..else Statements
+// Nested if..else Statements
 
-// // Question 1 :
-// // Find a max number
+// Question 1 :
+// Find a max number
 
 // let a = 45;
 // let b = 45;
@@ -22,8 +22,10 @@
 // }
 
 
-// // Question 2 :
-// // Find a min number (By user)
+//-------------------------------------------------------------
+
+// Question 2 :
+// Find a min number (By user)
 
 // let x = Number(prompt("Enter first number : "));
 // let y = Number(prompt("Enter second number : "));
@@ -44,30 +46,34 @@
 // }
 
 
-// // Question 3 :
-// // Find a two same number
+//-------------------------------------------------------------
 
-// let a = Number(prompt("Enter first number : "));
-// let b = Number(prompt("Enter second number : "));
-// let c = Number(prompt("Enter third number : "));
 
-// if(a>=b){
-//     if(a==b){
-//         alert(`${a} and ${b} both are equal`)
-//     }else if(a==c){
-//         alert("a and c both are equal")
-//     }else if(a>c){
-//         alert("a is max")
-//     }else{
-//         alert("c is max")
-//     }
-// }else{
-//     if(b==c){
-//         alert("B and c both are same")
-//     }else if(b>c){
-//         alert("b is max")
-//     }else{
-//         alert("c is max")
-//     }
-// }
+// Question 3 :
+// Find a two same number
 
+let a = Number(prompt("Enter first number : "));
+let b = Number(prompt("Enter second number : "));
+let c = Number(prompt("Enter third number : "));
+
+if(a>=b){
+    if(a==b){
+        alert(`${a} and ${b} both are equal`)
+    }else if(a==c){
+        alert("a and c both are equal")
+    }else if(a>c){
+        alert("a is max")
+    }else{
+        alert("c is max")
+    }
+}else{
+    if(b==c){
+        alert("B and c both are same")
+    }else if(b>c){
+        alert("b is max")
+    }else{
+        alert("c is max")
+    }
+}
+
+//----------------------------------------------------------------

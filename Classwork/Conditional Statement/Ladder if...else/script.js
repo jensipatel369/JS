@@ -1,6 +1,7 @@
 // Ladder if...else Statements
 
 // Question 1 :
+
 let mark = Number(prompt("Enter your marks : "));
 
 if(100<=mark){
@@ -16,3 +17,6 @@ if(100<=mark){
 }else{
     alert("You are failed...!")
 }
+
+
+//----------------------------------------------------------------
