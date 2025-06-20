@@ -92,7 +92,7 @@
 -> Implicit is automatically convert data type in JS.
 
 23.What is an Explicit?
--> Explicit is Converting a value from data type to another.
+-> Explicit is Converting a value from data type to another(Programmer).
 
 24.What is a null?
 -> Null is an explicit value representing.
@@ -101,11 +101,68 @@
 -> Undefined is a property of the global object.
 -> That is, it is a variable in global scope.
 
-26. What is a Template literals?
+26.What is a Template literals?
 -> Template literals are a JS feature introduced in ES6 (ECMA Script in 2015).
+-> This write in backticks(`).
+-> Template literals used to excess variables in Strings.
 
 27.How many type conversion?
 -> There are two (02) type of conversion :-
    1.Implicit
    2.Explicit
+
+28.Full form DOM?
+-> DOM :- Document Object Model (HTML tree)
+
+29.Full form BOM?
+-> BOM :- Browser Object Model (Windows events)
+
+30.What is a DOM?
+-> DOM is a programming interface that represents a web page as a tree structure.
+
+31.What is a BOM?
+-> BOM is a powerful tool that empowers JavaScript to interact with the browser windows, history, navigation, and even the user's device. By understanding the key objects, properties, and methods of the BOM.
+
+32.Selector Name :-
+-> 1.getElementsByTagName
+   2.getElementById
+   3.getElementsByClassName
+   4.querySelector
+   5.querySelectorAll
+
+33.What is NaN?
+-> NaN is resulting from invalid mathematical operation.
+
+34.What is Truthy Value?
+-> A truthy value is a value that is considered true when encountered in a Boolean context. 
+
+35.What is falsy Value?
+-> A falsy value is a value that is considered false when encountered in a Boolean context.
+
+36.Falsy value in JS :-
+-> - False (The boolean literal false)
+   - 0 (Zero)
+   - -0 (Negative Zero)
+   - 0n (Bigint Zero)
+   - "" (Empty String)
+   - Null
+   - Undefined 
+   - NaN
+   - Document.all
+
+37.Truly/Truthy value in JS :-
+-> - True
+   - Any non-zero Number
+   - Any non-empty
+   - Arrays
+
+38.How many type of error in JS?
+-> 1.Syntax Error
+   2.Runtime Error
+   3.Logical Error
+
+39.How many specific types of error in console?
+-> 1.Reference Error
+   2.Type Error
+
 

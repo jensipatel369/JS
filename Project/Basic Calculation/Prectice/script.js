@@ -12,7 +12,7 @@ console.log(a+b);
 
 let first = prompt("Enter your First Name : ");
 let last = prompt("Enter your Last Name : ");
-console.log(first+" "+last);
+console.log(first + " " + last);
 
 let year = prompt("Enter your born year : ");
 alert(2025-year);
