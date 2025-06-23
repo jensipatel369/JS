@@ -26,12 +26,23 @@
 // }
 // sum();
 
+
 // Return Key word :- 
 // function ke andar return ke baad koy bhi write ki hui line ny chlti
-let a = Number(prompt("Enter your first number : "))
-let b = Number(prompt("Enter your second number : "))
-function sum(a,b){
-    return a +b;    
-}
-let result = sum(a,b);
-console.log(result);
+// let a = Number(prompt("Enter your first number : "))
+// let b = Number(prompt("Enter your second number : "))
+// function sum(a,b){
+//     return a +b;    
+// }
+// let result = sum(a,b);
+// console.log(result);
+
+
+// Recursion function
+// function fact(a){
+//     if(a<1){
+//         return 1;
+//     }
+//     let result = a * fact(a-1);
+// }
+
