@@ -8,7 +8,7 @@ function sum(){
 }
 console.log(a);
 sum();
-
+ 
 // Block Scope
 if(true){
     let a = 35;
