@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salary Calculation</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello JS</h1>
-    
-    <script src="./script.js"></script>
+ 
+  <!--form-after-->
+  <div class="back w-full h-screen flex justify-center items-center">
+    <div class="back border-2 p-10 py-15 flex flex-col gap-5">
+      <h1 class="text-center font-bold text-2xl">Calculation for Salary</h1>
+      <button id="salary" class="outline-none border-2 py-1.5 px-3 w-80 mt-5"></button>
+      <button id="rent" class="outline-none border-2 py-1.5 px-3 w-80"></button>
+      <button id="foodExpense" class="outline-none border-2 py-1.5 px-3 w-80"></button>
+      <button id="otherExpense" class="outline-none border-2 py-1.5 px-3 w-80"></button>
+      <button id="extraIncome" class="outline-none border-2 py-1.5 px-3 w-80"></button>
+      <button id="netSalary" class="border-2 font-bold py-2 px-4 w-80 mt-5"></button>
+    </div>
+  </div>
+  <!--form-after-->
+
+  <p id="salary"></p>
+  <p id="rent"></p>
+  <p id="foodExpense"></p>
+  <p id="otherExpense"></p>
+  <p id="extraIncome"></p>
+  <h1 id="netSalary"></h1>
+
+  <script src="./script.js"></script>
+
 </body>
 </html>
