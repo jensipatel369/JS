@@ -2,3 +2,6 @@
     background: #BD9D97;
     background: linear-gradient(1deg, rgba(189, 157, 151, 1) 17%, rgba(209, 190, 187, 1) 65%, rgba(227, 223, 222, 1) 100%);
 }
+.sh{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
