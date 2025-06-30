@@ -26,14 +26,14 @@ function line(){
 function overline(){
     para.style.textDecoration = "overline";
 }
-function coral(){
-    para.style.color = "coral";
-}
-function font(){
-    para.style.fontFamily = " Caveat", cursive;
+function TextColor(color){
+   para.style.color = color;
 }
 function fontSize(){
     para.style.fontSize = "30px";
+}
+function font(){
+    para.style.fontFamily = "Caveat", cursive;
 }
 function spacing(){
     para.style.letterSpacing = "4px";
@@ -50,9 +50,6 @@ function shadow(){
 // function alignRight(){
 //     para.style.textAlign = "right";
 // }
-function TextColor(color){
-   para.style.color = color;
-}
 function reset(){
     para.style = "empty";
 }
