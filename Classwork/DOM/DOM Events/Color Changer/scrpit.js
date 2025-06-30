@@ -25,3 +25,11 @@ let arr2 = arr.map((item)=>{
     return item + " map";
 })
 console.log(arr2);
+
+
+// return boolean data type
+let naam = "Jensi";
+
+console.log(naam.includes("ns"));
+console.log(arr.includes("white"));
+console.log(arr.includes("black"));
