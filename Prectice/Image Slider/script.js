@@ -1,15 +1,19 @@
-let img = document.querySelector("img");
-let btn = document.querySelector("btn");
+let img = document.querySelector("#img");
+let arr = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
 
-let arr = ["1.png","2.png"];
+let i = 0   
 
-let i = 0;
-
-function magic(){
-    if(i<arr.length){
-        img.src = arr[i];
-        i++;
-    }else{
+function Right(){
+    i++;
+    if (i >= arr.length)
         i = 0;
-    }
+        img.src = arr[i];
+    
+}
+function Left(){
+    i--;
+    if (i < 0)
+        i = arr.length - 1;
+        img.src = arr[i];
+    
 }
