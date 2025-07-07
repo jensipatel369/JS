@@ -2,7 +2,7 @@
 
 let class11th = [
     {
-        name : "Punit",
+        name : "Jensi",
         rollNumber : 1001
     },
     {
@@ -18,8 +18,12 @@ let class11th = [
         rollNumber : 1004
     },
     {
-        name : "Hiyu",
+        name : "Zankhi",
         rollNumber : 1005
+    },
+    {
+        name : "Riva",
+        rollNumber : 1006
     }
 ]
 
