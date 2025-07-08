@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Light/Dark Mode</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body id="body" class="bg-white text-black transition-all duration-500">
+
+  <div class="flex flex-col items-center justify-center min-h-screen gap-4">
+    <h1 class="text-3xl font-bold">Light Mode & Dark Mode</h1>
+    <div class="flex gap-4 py-5">
+      <button class="border px-4 py-2 rounded-md bg-gray-400 hover:bg-gray-300" id="light" onclick="light()">☀ Light Mode</button>
+      <button class="border px-4 py-2 rounded-md bg-gray-800 text-white hover:bg-gray-700" id="dark" onclick="dark()">🌙 Dark Mode</button>
+    </div>
+  </div>
+
+  <script src="./scrpit.js"></script>
+</body>
+</html>
