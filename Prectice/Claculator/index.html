@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #2d2d2d 100%);
+        }
+        .calculator-bg {
+            background: linear-gradient(145deg, #1a1a1a 0%, #2d2d2d 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .display-bg {
+            background: linear-gradient(145deg, #0a0a0a 0%, #1a1a1a 100%);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .number-btn {
+            background: linear-gradient(145deg, #2d2d2d 0%, #404040 100%);
+            transition: all 0.2s ease;
+        }
+        .operator-btn {
+            background: linear-gradient(145deg, #404040 0%, #525252 100%);
+            transition: all 0.2s ease;
+        }
+        .clear-btn {
+            background: linear-gradient(145deg, #dc2626 0%, #ef4444 100%);
+            transition: all 0.2s ease;
+        }
+        .equals-btn {
+            background: linear-gradient(145deg, #059669 0%, #10b981 100%);
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen flex items-center justify-center p-4">
+    <div class="calculator-bg rounded-2xl p-6 max-w-sm w-full border border-gray-700">
+        <div id="display" class="display-bg rounded-xl p-4 py-6 mb-6 border border-gray-600 text-2xl text-white flex justify-end">0</div>
+        <div class="grid grid-cols-4 gap-3">
+            <button onclick="clearDisplay()" id="clear" class="clear-btn text-white text-lg font-semibold py-4 px-4 rounded-xl col-span-2">AC</button>
+            <button onclick="get('%')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">%</button>
+            <button onclick="get('/')" class="operator-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">÷</button>
+            <button onclick="get('7')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">7</button>
+            <button onclick="get('8')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">8</button>
+            <button onclick="get('9')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">9</button>
+            <button onclick="get('*')" class="operator-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">×</button>
+            <button onclick="get('4')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">4</button>
+            <button onclick="get('5')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">5</button>
+            <button onclick="get('6')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">6</button>
+            <button onclick="get('-')" class="operator-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">-</button>
+            <button onclick="get('1')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">1</button>
+            <button onclick="get('2')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">2</button>
+            <button onclick="get('3')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">3</button>
+            <button onclick="get('+')" class="operator-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">+</button>
+            <button onclick="get('0')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">0</button>
+            <button onclick="get('00')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">00</button>
+            <button onclick="get('.')" class="number-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">.</button>
+            <button onclick="calculate()" class="equals-btn text-white text-lg font-semibold py-4 px-4 rounded-xl">=</button>
+        </div>
+    </div>
+
+    <script src="./scrpit.js"></script>
+</body>
+</html>
