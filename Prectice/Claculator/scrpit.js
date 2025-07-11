@@ -1,5 +1,4 @@
 let input = "";
-
 let display = document.getElementById("display");
 
 function get(char) {
