@@ -1,0 +1,4 @@
+Try :- statement defines a code block to run (to try)
+Catch :- statement defines a code block to handle any error
+Finally :- statement defines a code block to run regardless of the result
+Throw :- Statement defines a custom error
