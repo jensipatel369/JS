@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: url('https://i.pinimg.com/1200x/88/6c/08/886c08b63610109800837d239cf09503.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+form input[type="text"],form select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+form input::placeholder,form select {
+  color: black;
+}
+
+form input:focus,form select:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 2px #a29bfe;
+}
+
+span {
+  font-size: 13px;
+  color: #ff6b6b;
+  margin-top: 5px;
+  display: block;
+}
+
+form input[type="submit"] {
+  margin-top: 25px;
+  background: #1d2c41;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 14px 12px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
