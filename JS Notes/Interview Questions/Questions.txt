@@ -1,0 +1,8 @@
+Interview Questions..!! 
+Website :- https://www.interviewbit.com/javascript-interview-questions/#is-javascript-a-statically-typed-or-a-dynamically-typed-language
+
+1. Is JavaScript a statically typed or a dynamically typed language?
+-> JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during run-time in contrast to a statically typed language, where the type of a variable is checked during compile-time.
+
+2. Explain passed by value and passed by reference.
+-> In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
