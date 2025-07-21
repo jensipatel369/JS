@@ -79,17 +79,22 @@ email.addEventListener("input", (event) => {
 
 // Password :-
 pass.addEventListener("input", (event) => {
-  // let value = event.target.value;
-  // let strong = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/;
-  // let medium = /^(?=.*[A-Z])(?=.*\d).{6,}$/;
-  // let weak = /^(?=.*[1-9])(?=.*[a-z])[a-z1-9]{4,}$/;
-  if (/^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/.test(value)) {
-    passErr.innerText = "Password is strong.";
-  } else if (/^(?=.*[A-Z])(?=.*\d).{6,}$/.test(value)) {
-    passErr.innerText = "Password is medium.";
-  } else if (/^(?=.*[1-9])(?=.*[a-z])[a-z1-9]{4,}$/.test(value)) {
-    passErr.innerText = "Password is weak.";
+  let value = event.target.value;
+  let strong = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/;
+  let medium = /^(?=.*[A-Z])(?=.*\d).{6,}$/;
+  let weak = /^(?=.*[a-z])(?=.*\d).{4,}$/;
+
+  if (strong.test(value)) {
+    passErr.innerText = "Password is strong...!!";
+    passErr.style.color = "green";
+  } else if (medium.test(value)) {
+    passErr.innerText = "Password is medium...!!";
+    passErr.style.color = "orange";
+  } else if (weak.test(value)) {
+    passErr.innerText = "Password is weak...!!";
+    passErr.style.color = "red";
   } else {
-    passErr.innerText = "Password is too weak.";
+    passErr.innerText = "Password is too weak...!!";
+    passErr.style.color = "gray";
   }
 });
