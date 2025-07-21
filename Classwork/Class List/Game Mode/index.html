@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mode Switcher</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+        text-align: center;
+        padding: 40px;
+    }
+    button{
+        background-color: #333333;
+        padding: 11px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: medium;
+    }
+    button:hover{
+        background: #555;
+        transition: all .3s;
+        cursor: pointer;
+    }
+    #box{
+        padding: 20px;
+        margin-top: 20px;
+        border: 4px dashed #3c3;
+        background-color: #e0ffe0;
+        border-radius: 15px;
+        transition: all 0.5s;
+    }
+    #current{
+        font-size:large;
+    }
+</style>
+<body>
+    <h1>🎮 Puzzle Game Mode</h1>
+    <button id="mode" onclick="Mode()">Switch to Hard Mode</button>
+    <div id="box">
+        <p>This is the game area.</p>
+        <p id="speed">Game speed : Slow (Easy Mode)</p>
+    </div>
+    <p id="current">Current Mode : Easy</p>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
