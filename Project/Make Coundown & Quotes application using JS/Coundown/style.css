@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1d5db; 
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Timer Display */
+.timer-display {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #374151; 
+}
+
+/* Time Inputs */
+.time-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.time-inputs input {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 24px;
+  padding: 8px;
+  outline: none;
+}
+
+.time-inputs input:focus {
+  border-color: #60a5fa; 
+  box-shadow: 0 0 0 2px #93c5fd;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Start Button */
+.btn-start {
+  background-color: #3b82f6; 
+}
+.btn-start:hover {
+  background-color: #2563eb; 
+}
+
+/* Stop Button */
+.btn-stop {
+  background-color: #facc15; 
+}
+.btn-stop:hover {
+  background-color: #eab308; 
+}
+
+/* Reset Button */
+.btn-reset {
+  background-color: #ef4444; 
+}
+.btn-reset:hover {
+  background-color: #dc2626; 
+}
